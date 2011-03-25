@@ -1,0 +1,18 @@
+This project enables BOINC to support OpenID on the web server. 
+
+The OpenID features are implemented with the library LightOpenID by mewp (http://gitorious.org/lightopenid). The file
+openid.php is the library and its under a MIT license.
+
+The other two files are the modifications required to support OpenID on the BOINC web server.
+
+Installation
+============
+
+In order to install/try this version of the web server, you only have to download those three files, plus the button images
+for enabling the OpenID feature.
+
+License
+=======
+All the BOINC files are under GNU Lesser General Public license version 3.
+
+
