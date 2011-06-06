@@ -49,7 +49,7 @@ try {
     } elseif($openid->mode == 'cancel') {
         echo 'User has canceled authentication!';
     } else {
-        echo 'User ' . ($openid->validate() ? $openid->identity . ' has ' : 'has not ') . 'logged in.';
+        //echo 'User ' . ($openid->validate() ? $openid->identity . ' has ' : 'has not ') . 'logged in.';
         //print_r($openid->getAttributes());
         // Create the user in the DB
         $data = $openid->getAttributes();
